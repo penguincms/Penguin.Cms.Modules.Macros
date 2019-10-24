@@ -1,0 +1,12 @@
+﻿@model string
+
+@{
+    Layout = null;
+    Guid guid = Guid.NewGuid();
+    byte[] plainTextBytes = System.Text.Encoding.UTF8.GetBytes(Model);
+    string Encoded = System.Convert.ToBase64String(plainTextBytes);
+
+}
+
+<span id="@guid">@Encoded</span>
+<script>$('#@guid').html(atob($('#@guid').html()))</script>
