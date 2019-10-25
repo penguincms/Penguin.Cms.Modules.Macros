@@ -1,0 +1,49 @@
+Microsoft (R) Build Engine version 16.3.0+0f4c62fea for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 25.94 ms for C:\Penguin\Repositories\Penguin.Extensions.String\Penguin.Extensions.String.Local.csproj.
+  Restore completed in 25.95 ms for C:\Penguin\Repositories\Penguin.Extensions.Exceptions\Penguin.Extensions.Exceptions.Local.csproj.
+  Restore completed in 25.93 ms for C:\Penguin\Repositories\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.Local.csproj.
+  Restore completed in 25.94 ms for C:\Penguin\Repositories\Penguin.Debugging\Penguin.Debugging.Local.csproj.
+  Restore completed in 25.94 ms for C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj.
+  Restore completed in 25.93 ms for C:\Penguin\Repositories\Penguin.Cms.Abstractions\Penguin.Cms.Abstractions.Local.csproj.
+  Restore completed in 25.94 ms for C:\Penguin\Repositories\Penguin.DependencyInjection.Abstractions\Penguin.DependencyInjection.Abstractions.Local.csproj.
+  Restore completed in 25.95 ms for C:\Penguin\Repositories\Penguin.Cms.Core\Penguin.Cms.Core.Local.csproj.
+  Restore completed in 1.02 ms for C:\Penguin\Repositories\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.Local.csproj.
+  Restore completed in 1.33 ms for C:\Penguin\Repositories\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.Local.csproj.
+  Restore completed in 1.5 ms for C:\Penguin\Repositories\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.Local.csproj.
+  Restore completed in 1.4 ms for C:\Penguin\Repositories\Penguin.Reflection\Penguin.Reflection.Local.csproj.
+  Penguin.Entities.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Entities.Abstractions\bin\Release\netstandard2.0\Penguin.Entities.Abstractions.Local.dll
+  Penguin.DependencyInjection.Abstractions.Local -> C:\Penguin\Repositories\Penguin.DependencyInjection.Abstractions\bin\Release\netstandard2.0\Penguin.DependencyInjection.Abstractions.Local.dll
+  Penguin.Extensions.String.Local -> C:\Penguin\Repositories\Penguin.Extensions.String\bin\Release\netstandard2.0\Penguin.Extensions.String.Local.dll
+  Penguin.Reflection.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Reflection.Abstractions\bin\Release\netstandard2.0\Penguin.Reflection.Abstractions.Local.dll
+  Penguin.Extensions.Exceptions.Local -> C:\Penguin\Repositories\Penguin.Extensions.Exceptions\bin\Release\netstandard2.0\Penguin.Extensions.Exceptions.Local.dll
+  Penguin.Reflection.Extensions.Local -> C:\Penguin\Repositories\Penguin.Reflection.Extensions\bin\Release\netstandard2.0\Penguin.Reflection.Extensions.Local.dll
+  Penguin.Debugging.Local -> C:\Penguin\Repositories\Penguin.Debugging\bin\Release\netstandard2.0\Penguin.Debugging.Local.dll
+  Penguin.Persistence.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Persistence.Abstractions\bin\Release\netstandard2.0\Penguin.Persistence.Abstractions.Local.dll
+  Penguin.Reflection.Local -> C:\Penguin\Repositories\Penguin.Reflection\bin\Release\netstandard2.0\Penguin.Reflection.Local.dll
+  Penguin.Reflection.Local -> C:\Penguin\Repositories\Penguin.Reflection\bin\Release\net48\Penguin.Reflection.Local.dll
+  Penguin.Cms.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Cms.Abstractions\bin\Release\netstandard2.0\Penguin.Cms.Abstractions.Local.dll
+  Penguin.Cms.Core.Local -> C:\Penguin\Repositories\Penguin.Cms.Core\bin\Release\netstandard2.0\Penguin.Cms.Core.Local.dll
+C:\Users\Loffr\.nuget\packages\microsoft.extensions.fileproviders.embedded\3.0.0\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.targets(19,5): warning : GenerateEmbeddedFilesManifest was set, but no EmbeddedResource items were found that could be added to the manifest. [C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj]
+Controllers\StringController.cs(6,18): warning CS1591: Missing XML comment for publicly visible type or member 'StringController' [C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj]
+Controllers\StringController.cs(9,29): warning CS1591: Missing XML comment for publicly visible type or member 'StringController.Obfuscate(string)' [C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj]
+  Penguin.Cms.Modules.Macros.Local -> C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\bin\Release\netcoreapp3.0\Penguin.Cms.Modules.Macros.Local.dll
+  Penguin.Cms.Modules.Macros.Local -> C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\bin\Release\netcoreapp3.0\Penguin.Cms.Modules.Macros.Local.Views.dll
+C:\Users\Loffr\.nuget\packages\microsoft.extensions.fileproviders.embedded\3.0.0\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.targets(19,5): warning : GenerateEmbeddedFilesManifest was set, but no EmbeddedResource items were found that could be added to the manifest. [C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj]
+  Successfully created package 'C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\bin\Release\Penguin.Cms.Modules.Macros.Local.1.0.0.nupkg'.
+C:\Program Files\dotnet\sdk\3.0.100\Sdks\NuGet.Build.Tasks.Pack\build\NuGet.Build.Tasks.Pack.targets(198,5): warning NU5048: The 'PackageIconUrl'/'iconUrl' element is deprecated. Consider using the 'PackageIcon'/'icon' element instead. Learn more at https://aka.ms/deprecateIconUrl [C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj]
+  Successfully created package 'C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\bin\Release\Penguin.Cms.Modules.Macros.Local.1.0.0.snupkg'.
+
+Build succeeded.
+
+C:\Users\Loffr\.nuget\packages\microsoft.extensions.fileproviders.embedded\3.0.0\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.targets(19,5): warning : GenerateEmbeddedFilesManifest was set, but no EmbeddedResource items were found that could be added to the manifest. [C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj]
+Controllers\StringController.cs(6,18): warning CS1591: Missing XML comment for publicly visible type or member 'StringController' [C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj]
+Controllers\StringController.cs(9,29): warning CS1591: Missing XML comment for publicly visible type or member 'StringController.Obfuscate(string)' [C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj]
+C:\Users\Loffr\.nuget\packages\microsoft.extensions.fileproviders.embedded\3.0.0\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.targets(19,5): warning : GenerateEmbeddedFilesManifest was set, but no EmbeddedResource items were found that could be added to the manifest. [C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj]
+C:\Program Files\dotnet\sdk\3.0.100\Sdks\NuGet.Build.Tasks.Pack\build\NuGet.Build.Tasks.Pack.targets(198,5): warning NU5048: The 'PackageIconUrl'/'iconUrl' element is deprecated. Consider using the 'PackageIcon'/'icon' element instead. Learn more at https://aka.ms/deprecateIconUrl [C:\Penguin\Repositories\Penguin.Cms.Modules.Macros\Penguin.Cms.Modules.Macros.Local.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.73
+
