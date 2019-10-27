@@ -10,7 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Remove="wwwroot\**\*" />
-    <PackageReference Include="Penguin.Cms.Core" Version="2.0.0-63707652289" />
+    <PackageReference Include="Penguin.Cms.Core" Version="2.0.0-T9LXGUJ" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="wwwroot\**\*" />
