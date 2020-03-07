@@ -6,6 +6,9 @@ namespace Penguin.Cms.Modules.Macros.Controllers
     public class StringController : Controller
     {
         [ShowMacro]
-        public ActionResult Obfuscate(string toObfuscate) => this.View((object)toObfuscate);
+        public ActionResult Obfuscate(string toObfuscate)
+        {
+            return this.View((object)toObfuscate);
+        }
     }
 }
