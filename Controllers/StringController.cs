@@ -8,7 +8,7 @@ namespace Penguin.Cms.Modules.Macros.Controllers
         [ShowMacro]
         public ActionResult Obfuscate(string toObfuscate)
         {
-            return this.View((object)toObfuscate);
+            return View((object)toObfuscate);
         }
     }
 }
